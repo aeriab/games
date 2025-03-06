@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My GitHub Page</title>
+  <style>
+    h1 {text-align: center;}
+    h2 {margin-left: 200px;}
+    p {text-align: center;}
+    div {text-align: center;}
+    iframe {display: block; margin: 0 auto; text-align: center;}
+    body {font-family: Verdana, sans-serif;}
+  </style>
+</head>
+<body>
+  <h1>Welcome to Brendan Aeria's personal website !! 😊</h1>
+  <p>Here is Chillmoji, a game I created in 36 hours for the UCLA ACM Studio gift jam</p>
+
+    <iframe frameborder="0" src="https://aeriab.github.io/chillmoji/gift-jam-12/index.html" allowfullscreen="" width="1152" height="648"><a href="https://aeriab.github.io/chillmoji/gift-jam-12/index.html">Play Chillmoji</a></iframe>
+    <h2>Use WASD or Arrow Keys for movement.</h2>
+    <h2>Press RESTART at any time. Progress is saved if you press EXIT.</h2>
+
+    <!-- <iframe frameborder="0" src="https://aeriab.github.io/srs25/srs25-1/index.html" allowfullscreen="" width="1152" height="648"><a href="https://aeriab.github.io/srs25/srs25-1/index.html">Play SRS25</a></iframe>
+    <h2>Pro tip: keep the larger tiles in the corner to keep them next to one another.</h2>
+    <h2>This was made by Brendan Aeria in 36 hours for the ACM Studio Cozy jam.</h2>
+    <h2>Made in Godot 4.3</h2> -->
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/service-worker.js');
+      });
+    }
+  </script>
+</body>
+</html>
